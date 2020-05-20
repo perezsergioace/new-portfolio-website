@@ -16,6 +16,7 @@ $gray-text: #2c2c2c;
 
 @import "global";
 @import "intro";
+@import "projects";
 
 @media screen and (max-width: 1400px) {
 	html {
@@ -75,6 +76,15 @@ $gray-text: #2c2c2c;
 
 		a {
 			margin: 2rem;
+		}
+	}
+
+	.travelly,
+	.elena {
+		flex: 1 1 50rem;
+		img {
+			width: 100%;
+			height: 100%;
 		}
 	}
 }
