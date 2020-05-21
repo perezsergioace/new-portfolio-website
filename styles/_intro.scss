@@ -22,6 +22,11 @@ nav {
 		@include flex(space-around, center, row);
 		flex: 1 1 40rem;
 	}
+
+	a:hover {
+		color: #30b98c;
+		border-radius: 2rem;
+	}
 }
 
 .intro {

@@ -130,6 +130,11 @@ nav ul {
           flex: 1 1 40rem;
 }
 
+nav a:hover {
+  color: #30b98c;
+  border-radius: 2rem;
+}
+
 .intro {
   min-height: 90vh;
   width: 90%;
