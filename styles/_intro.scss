@@ -64,6 +64,14 @@ nav {
 	margin-top: 4rem;
 	a {
 		margin-right: 5rem;
+
+		img {
+			transition: all 0.3s;
+		}
+
+		img:hover {
+			transform: scale(1.2);
+		}
 	}
 }
 
