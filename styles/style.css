@@ -553,6 +553,9 @@ footer {
   .intro-social a {
     margin: 2rem;
   }
+  .about {
+    width: 90%;
+  }
   .travelly,
   .elena {
     -webkit-box-flex: 1;
