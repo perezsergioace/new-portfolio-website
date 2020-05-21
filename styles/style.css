@@ -437,7 +437,7 @@ footer h4 {
 .about {
   width: 90%;
   margin: auto;
-  min-height: 50vh;
+  min-height: 35vh;
   text-align: center;
   padding-top: 4rem;
 }
@@ -447,7 +447,40 @@ footer h4 {
 }
 
 .about p {
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+.experience {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  min-height: 50vh;
+}
+
+.experience h2 {
+  padding-bottom: 4rem;
+}
+
+.experience-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.experience-icons img {
+  max-width: 15rem;
+  max-height: 15rem;
+  margin: 0 5rem;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 1400px) {
