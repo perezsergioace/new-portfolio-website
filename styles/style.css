@@ -434,6 +434,22 @@ footer h4 {
           flex: 1 1 40rem;
 }
 
+.about {
+  width: 90%;
+  margin: auto;
+  min-height: 50vh;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.about h2 {
+  padding-bottom: 2rem;
+}
+
+.about p {
+  font-size: 2.5rem;
+}
+
 @media screen and (max-width: 1400px) {
   html {
     font-size: 53%;
