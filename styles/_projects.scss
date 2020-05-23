@@ -2,12 +2,22 @@
 	width: 90%;
 	margin: auto;
 	min-height: 90vh;
-	@include flex(space-between, center, row);
+	@include flex(space-between, center, column);
 	text-align: center;
 	flex-wrap: wrap;
 
 	h2 {
 		margin: 5rem;
+	}
+
+	button {
+		padding: 1rem;
+		border-radius: 5px;
+		background-color: black;
+		color: white;
+		cursor: pointer;
+		width: 30%;
+		margin: 3rem auto 4rem auto;
 	}
 }
 
