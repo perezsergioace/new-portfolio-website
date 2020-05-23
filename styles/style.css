@@ -356,10 +356,17 @@ nav a:hover {
 }
 
 .travelly,
-.elena {
+.elena,
+.music-lyrics {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
+}
+
+.travelly img,
+.elena img,
+.music-lyrics img {
+  border-radius: 2rem;
 }
 
 .contact {
@@ -376,7 +383,7 @@ nav a:hover {
 }
 
 .form-section {
-  min-height: 60vh;
+  min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
