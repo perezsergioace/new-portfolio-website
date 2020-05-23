@@ -335,13 +335,24 @@ nav a:hover {
 }
 
 .projects button {
-  padding: 1rem;
-  border-radius: 5px;
+  padding: 1.5rem;
+  border-radius: 10px;
   background-color: black;
   color: white;
   cursor: pointer;
   width: 30%;
   margin: 3rem auto 4rem auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.projects button:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.projects button a {
+  color: white;
 }
 
 .travelly,
