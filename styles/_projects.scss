@@ -32,10 +32,13 @@
 
 .travelly,
 .elena,
-.music-lyrics {
+.music-lyrics,
+.weight-lifting {
 	flex: 1 1 40rem;
 
 	img {
 		border-radius: 2rem;
+		width: 100%;
+		height: 100%;
 	}
 }
